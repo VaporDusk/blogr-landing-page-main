@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Frontend Mentor | [Blogr]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <button id="menu"></button>
+    <nav id="nav">
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <p class="nav-list-item-text">Product</p>
+          <img class="nav-list-item-arrow" src="images/icon-arrow-light.svg" alt="icon-arrow"/>
+          <ul class="nav-list-item-list">
+            <li class="nav-list-item-list-item"><a class="nav-list-item-list-item-link" href="#">Overview</a></li>
+            <li class="nav-list-item-list-item"><a class="nav-list-item-list-item-link" href="#">Pricing</a></li>
+            <li class="nav-list-item-list-item"><a class="nav-list-item-list-item-link" href="#">Marketplace</a></li>
+            <li class="nav-list-item-list-item"><a class="nav-list-item-list-item-link" href="#">Features</a></li>
+            <li class="nav-list-item-list-item"><a class="nav-list-item-list-item-link" href="#">Integrations</a></li>
+          </ul>
+        </li>
+        <li class="nav-list-item">
+          <p class="nav-list-item-text">Company</p>
+          <img class="nav-list-item-arrow" src="images/icon-arrow-light.svg" alt="icon-arrow"/>
+          <ul class="nav-list-item-list">
+            <li class="nav-list-item-list-item"><a class="nav-list-item-list-item-link" href="#">About</a></li>
+            <li class="nav-list-item-list-item"><a class="nav-list-item-list-item-link" href="#">Team</a></li>
+            <li class="nav-list-item-list-item"><a class="nav-list-item-list-item-link" href="#">Blog</a></li>
+            <li class="nav-list-item-list-item"><a class="nav-list-item-list-item-link" href="#">Careers</a></li>
+          </ul>
+        </li>
+        <li class="nav-list-item">
+          <p class="nav-list-item-text">Connect</p>
+          <img class="nav-list-item-arrow" src="images/icon-arrow-light.svg" alt="icon-arrow"/>
+          <ul class="nav-list-item-list">
+            <li class="nav-list-item-list-item"><a class="nav-list-item-list-item-link" href="#">Contact</a></li>
+            <li class="nav-list-item-list-item"><a class="nav-list-item-list-item-link" href="#">Newsletter</a></li>
+            <li class="nav-list-item-list-item"><a class="nav-list-item-list-item-link" href="#">LinkedIn</a></li>
+          </ul>
+        </li>
+      </ul>
+      <a class="button button-login" href="#">Login</a>
+      <a class="button button-signup" href="#">Sign Up</a>
+    </nav>
+    <h1 class="header-heading">A modern publishing platform</h1>
+    <p class="header-text">Grow your audience and build your online brand</p>
+    <a class="button button-white" href="#">Start for Free</a>
+    <a class="button button-red" href="#">Learn More</a>
+  </header>
+
+  <main class="main">
+
+    <section class="main-top">
+      <h2 class="main-heading main-top-heading">Designed for the future</h2>
+      <article class="main-top-article">
+        <h3 class="main-subheading main-top-article-heading">Introducing an extensible editor</h3>
+        <p class="main-text main-top-article-text">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
+      </article>
+      <article class="main-top-article">
+        <h3 class="main-subheading main-top-article-heading">Robust content management</h3>
+        <p class="main-text main-top-article-text">Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+      </article>
+    </section>
+
+    <section class="main-middle">
+      <img class="main-middle-image" src="images/illustration-phones.svg" alt="illustration-phones" aria-hidden="true"/>
+      <article class="main-middle-article">
+        <h3 class="main-subheading main-middle-article-heading">State of the Art Infrastructure</h2>
+        <p class="main-text main-middle-article-text">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+      </article>
+    </section>
+
+    <section class="main-bottom">
+      <article class="main-bottom-article">
+        <h3 class="main-subheading main-bottom-article-heading">Free, open, simple</h2>
+        <p class="main-text main-bottom-article-text">Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+      </article>
+      <article class="main-bottom-article">
+        <h3 class="main-subheading main-bottom-article-heading">Powerful tooling</h3>
+        <p class="main-text main-bottom-article-text">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites.</p>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <ul class="footer-list">
+      <li class="footer-list-item">Product</li>
+        <ul class="footer-list-item-list">
+          <li class="footer-list-item-list-item"><a class="footer-list-item-list-item-link" href="#">Overview</a></li>
+          <li class="footer-list-item-list-item"><a class="footer-list-item-list-item-link" href="#">Pricing</a></li>
+          <li class="footer-list-item-list-item"><a class="footer-list-item-list-item-link" href="#">Marketplace</a></li>
+          <li class="footer-list-item-list-item"><a class="footer-list-item-list-item-link" href="#">Features</a></li>
+          <li class="footer-list-item-list-item"><a class="footer-list-item-list-item-link" href="#">Integrations</a></li>
+        </ul>
+    </ul>
+    <ul class="footer-list">
+      <li class="footer-list-item">Company</li>
+        <ul class="footer-list-item-list">
+          <li class="footer-list-item-list-item"><a class="footer-list-item-list-item-link" href="#">About</a></li>
+          <li class="footer-list-item-list-item"><a class="footer-list-item-list-item-link" href="#">Team</a></li>
+          <li class="footer-list-item-list-item"><a class="footer-list-item-list-item-link" href="#">Blog</a></li>
+          <li class="footer-list-item-list-item"><a class="footer-list-item-list-item-link" href="#">Careers</a></li>
+        </ul>
+    </ul>
+    <ul class="footer-list">
+      <li class="footer-list-item">Connect</li>
+        <ul class="footer-list-item-list">
+          <li class="footer-list-item-list-item"><a class="footer-list-item-list-item-link" href="#">Contact</a></li>
+          <li class="footer-list-item-list-item"><a class="footer-list-item-list-item-link" href="#">Newsletter</a></li>
+          <li class="footer-list-item-list-item"><a class="footer-list-item-list-item-link" href="#">LinkedIn</a></li>
+        </ul>
+    </ul>
+  </footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/VaporDusk">VaporDusk</a>.
+  </div>
+
+  <script>
+    window.onload = function() {
+      const element = document.createElement("script");
+      element.src = "js/script.js";
+      document.body.appendChild(element);
+    };
+  </script>
+
+</body>
+</html>
